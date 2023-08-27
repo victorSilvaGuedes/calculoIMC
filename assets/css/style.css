@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+:root {
+  --primaryColor: #fcbf49;
+}
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--primaryColor);
+  font-family: 'Sen', sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #003049;
+}
+
+.container {
+  max-width: 640px;
+  margin: 23px auto;
+  background: white;
+  padding: 5px 25px;
+  border-radius: 10px;
+}
+
+.container h1{
+  text-align: center;
+}
+
+form input,
+form label,
+form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+form input {
+  font-size: 24px;
+  height: 32px;
+  padding: 5px;
+  color: #003049;
+}
+
+form input:focus {
+  outline: 1px solid var(--primaryColor);
+}
+
+form button {
+  border: none;
+  background: #d62828;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  height: 28px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 20px;
+  font-family: 'Sen';
+}
+
+form button:hover {
+  filter: brightness(85%);
+  transform: scale(1.01);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.resultado p {
+  color: white;
+  background: #3592d4;
+  padding: 5px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 18px;
+  outline: 1px solid var(--primaryColorDarker);
+}
