@@ -15,7 +15,7 @@ function recebeEventoForm(e) {
   }
 
   if (altura > 3) {
-    setResultado('A altura precisa estar em centímetros!');
+    setResultado('A altura precisa estar em metros!');
     return;
   }
 
