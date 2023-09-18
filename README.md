@@ -2,7 +2,7 @@
 
 ![preview](.github/calculoIMC.png)
 
-[Clique aqui para acessar!](https://victorsilvaguedes.github.io/calculoIMC/)
+[Clique aqui para acessar!](https://victorsilvaguedes.github.io/calculoImc/)
 
 ## ⚙ Tecnologias
 
